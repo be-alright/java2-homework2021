@@ -3,10 +3,10 @@ package com.cindy;
 public class Customer {
     String id;
     int sellingprice;
-    int discount;
+    String discount;
     int discountprice;
 
-    public Customer(String id, int sellingprice, int discount, int discountprice) {
+    public Customer(String id, int sellingprice, String discount, int discountprice) {
         this.id = id;
         this.sellingprice = sellingprice;
         this.discount = discount;
